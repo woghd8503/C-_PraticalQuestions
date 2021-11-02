@@ -1,0 +1,7 @@
+D:\01.Coding_study\CS_PracticalQuestions\csPracticalQuestions\ConsoleApp1\obj\Debug\Part1_Basic.csprojAssemblyReference.cache
+D:\01.Coding_study\CS_PracticalQuestions\csPracticalQuestions\ConsoleApp1\obj\Debug\Part1_Basic.csproj.CoreCompileInputs.cache
+D:\01.Coding_study\CS_PracticalQuestions\csPracticalQuestions\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\01.Coding_study\CS_PracticalQuestions\csPracticalQuestions\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\01.Coding_study\CS_PracticalQuestions\csPracticalQuestions\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\01.Coding_study\CS_PracticalQuestions\csPracticalQuestions\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\01.Coding_study\CS_PracticalQuestions\csPracticalQuestions\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
