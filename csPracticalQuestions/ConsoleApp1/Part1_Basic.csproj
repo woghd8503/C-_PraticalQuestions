@@ -43,7 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="001_ReadAndWrite.cs" />
+    <None Include="002_VariablesType.cs" />
+    <None Include="006_String.Format.cs" />
+    <None Include="007_StringInterpolation.cs" />
+    <None Include="008_FormatSpecifiers.cs" />
+    <None Include="005_Console.WriteLine.cs" />
+    <None Include="004_AssignmentOperator.cs" />
+    <None Include="003_CharAndString.cs" />
+    <None Include="001_ReadAndWrite.cs" />
+    <None Include="009_String.FormatAndToString.cs" />
+    <Compile Include="010_Float,Double,Decimal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
