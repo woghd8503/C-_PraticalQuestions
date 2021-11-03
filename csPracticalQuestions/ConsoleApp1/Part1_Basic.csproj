@@ -52,7 +52,20 @@
     <None Include="003_CharAndString.cs" />
     <None Include="001_ReadAndWrite.cs" />
     <None Include="009_String.FormatAndToString.cs" />
-    <Compile Include="010_Float,Double,Decimal.cs" />
+    <None Include="012_StringToNumber.cs" />
+    <None Include="013_Convert.cs" />
+    <None Include="014_Operatorst.cs" />
+    <None Include="015_ArithmeticOperators.cs" />
+    <None Include="016_DivideByZero.cs" />
+    <None Include="018_RelationalOperator.cs" />
+    <Compile Include="023_StringMethods.cs" />
+    <None Include="022_CompoundAssignment.cs" />
+    <None Include="021_ConditionalOperator.cs" />
+    <None Include="020_BitwiseOperators.cs" />
+    <None Include="019_logicalOperators.cs" />
+    <None Include="017_Overflow.cs" />
+    <None Include="011_Float,Double,Decimal.cs" />
+    <None Include="010_Float,Double,Decimal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
