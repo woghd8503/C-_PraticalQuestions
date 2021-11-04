@@ -58,7 +58,10 @@
     <None Include="015_ArithmeticOperators.cs" />
     <None Include="016_DivideByZero.cs" />
     <None Include="018_RelationalOperator.cs" />
-    <Compile Include="023_StringMethods.cs" />
+    <None Include="025_StringContains.cs" />
+    <Compile Include="026_StringFormat.cs" />
+    <None Include="024_StringConcat.cs" />
+    <None Include="023_StringMethods.cs" />
     <None Include="022_CompoundAssignment.cs" />
     <None Include="021_ConditionalOperator.cs" />
     <None Include="020_BitwiseOperators.cs" />

@@ -10,7 +10,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            string s = "Hello, World! ";
+            string s = " Hello, World! ";
             string t;
 
             Console.WriteLine(s.Length);
@@ -20,7 +20,7 @@ namespace ConsoleApp1
             Console.WriteLine(s.PadRight(20, '.'));
             Console.WriteLine(s.Remove(6));
             Console.WriteLine(s.Remove(6, 7));
-            Console.WriteLine(s.Replace('1', 'm'));
+            Console.WriteLine(s.Replace('l', 'm'));
             Console.WriteLine(s.ToLower());
             Console.WriteLine(s.ToUpper());
             Console.WriteLine('/' + s.Trim() + '/');
@@ -35,7 +35,21 @@ namespace ConsoleApp1
             s.CopyTo(8, destination, 0, 6);
             Console.WriteLine(destination);
 
-            Console.WriteLine('/');
+            Console.WriteLine('/' + s.Substring(8) + '/');
+            Console.WriteLine('/' + s.Substring(8, 5) + '/');
+
+            Console.WriteLine(s.Contains("ll"));
+            Console.WriteLine(s.IndexOf("o"));
+            Console.WriteLine(s.LastIndexOf("o"));
+            Console.WriteLine(s.CompareTo("abc"));
+
+            Console.WriteLine(String.Concat("Hi~", s));
+            Console.WriteLine(String.Compare("abc", s));
+            Console.WriteLine(t = String.Copy(s));
+
+            string[] val = { "apple", "orange", "grape", "paper" };
+            String result = String.Join(", ", val);
+            Console.WriteLine(result);
         }
     }
 }
