@@ -59,7 +59,12 @@
     <None Include="016_DivideByZero.cs" />
     <None Include="018_RelationalOperator.cs" />
     <None Include="025_StringContains.cs" />
-    <Compile Include="026_StringFormat.cs" />
+    <None Include="027_GroupSeperator.cs" />
+    <None Include="031_ValueAndReference.cs" />
+    <None Include="030_ConstAndReadonly.cs" />
+    <None Include="029_Enum.cs" />
+    <None Include="028_StringBuilder.cs" />
+    <None Include="026_StringFormat.cs" />
     <None Include="024_StringConcat.cs" />
     <None Include="023_StringMethods.cs" />
     <None Include="022_CompoundAssignment.cs" />
@@ -69,6 +74,22 @@
     <None Include="017_Overflow.cs" />
     <None Include="011_Float,Double,Decimal.cs" />
     <None Include="010_Float,Double,Decimal.cs" />
+    <None Include="033_NullConditionalOperator.cs" />
+    <None Include="037_IfElse.cs" />
+    <None Include="036_Object.cs" />
+    <None Include="035_Nullable.cs" />
+    <None Include="034_Default.cs" />
+    <None Include="032_PassingArrayAndObject.cs" />
+    <None Include="039_BMI.cs" />
+    <None Include="038_Switch.cs" />
+    <None Include="040_Loop.cs" />
+    <None Include="045_PrimeNumber.cs" />
+    <None Include="044_Factorial.cs" />
+    <None Include="043_Power.cs" />
+    <None Include="042_MinMax.cs" />
+    <None Include="041_MultiplicationTable.cs" />
+    <Compile Include="047_NumberSystem.cs" />
+    <None Include="046_FindingPI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
