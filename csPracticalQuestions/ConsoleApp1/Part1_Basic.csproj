@@ -88,6 +88,7 @@
     <None Include="043_Power.cs" />
     <None Include="042_MinMax.cs" />
     <None Include="041_MultiplicationTable.cs" />
+    <None Include="047_NumberSystem - Copy.cs" />
     <Compile Include="047_NumberSystem.cs" />
     <None Include="046_FindingPI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

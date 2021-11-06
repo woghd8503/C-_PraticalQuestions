@@ -11,23 +11,30 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            bool sign = false;
-            double pi = 0;
+            string plain = Console.ReadLine();
 
-            for(int i = 1; i <= 10000; i += 2)
+            
+
+            int answer = 0;
+            int first = 0;
+            int last = plain.Length;
+            int middle = 0;
+
+
+            if (plain.Length % 2 == 0)
+                middle = plain.Length / 2;
+            else
+                middle = (plain.Length + 1) / 2;
+
+            while (plain[first] != plain[last -1])
             {
-                if (sign == false)
-                {
-                    pi += 1.0 / i;
-                    sign = true;
-                }
-                else
-                {
-                    pi -= 1.0 / i;
-                    sign = false;
-                }
-                Console.WriteLine("i = {0}, PI = {1}", i, 4*pi);
+                plain = plain + plain[middle];
+                middle -= 1;
             }
+
+            answer = plain.Length;
+
+            Console.WriteLine(answer);
         }
     }
 }
