@@ -89,7 +89,8 @@
     <None Include="042_MinMax.cs" />
     <None Include="041_MultiplicationTable.cs" />
     <None Include="047_NumberSystem.cs" />
-    <Compile Include="048_NumberSystem.cs" />
+    <Compile Include="049_.cs" />
+    <None Include="048_InfiniteLoop.cs" />
     <None Include="9999_String.cs" />
     <None Include="046_FindingPI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
