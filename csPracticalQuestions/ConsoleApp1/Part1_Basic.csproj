@@ -89,10 +89,12 @@
     <None Include="042_MinMax.cs" />
     <None Include="041_MultiplicationTable.cs" />
     <None Include="047_NumberSystem.cs" />
-    <None Include="049_.cs" />
-    <Compile Include="048_InfiniteLoop.cs" />
+    <Compile Include="051_TimesTable.cs" />
+    <None Include="050_SumOffactorial.cs" />
+    <None Include="048_InfiniteLoop.cs" />
     <None Include="9999_String.cs" />
     <None Include="046_FindingPI.cs" />
+    <None Include="049_UsinBreak.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
