@@ -89,10 +89,10 @@
     <None Include="042_MinMax.cs" />
     <None Include="041_MultiplicationTable.cs" />
     <None Include="047_NumberSystem.cs" />
-    <Compile Include="051_TimesTable - Copy %282%29.cs" />
-    <Compile Include="051_TimesTable - Copy - Copy.cs" />
-    <Compile Include="051_TimesTable - Copy.cs" />
-    <Compile Include="051_TimesTable.cs" />
+    <None Include="051_TimesTable - Copy %282%29.cs" />
+    <Compile Include="052_PrimeNumbers.cs" />
+    <None Include="051_TimesTable - Copy.cs" />
+    <None Include="051_TimesTable.cs" />
     <None Include="050_SumOffactorial.cs" />
     <None Include="048_InfiniteLoop.cs" />
     <None Include="9999_String.cs" />
