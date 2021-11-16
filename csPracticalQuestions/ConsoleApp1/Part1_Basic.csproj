@@ -89,13 +89,13 @@
     <None Include="042_MinMax.cs" />
     <None Include="041_MultiplicationTable.cs" />
     <None Include="047_NumberSystem.cs" />
-    <Compile Include="053_LoopPyramid.cs" />
+    <None Include="053_LoopPyramid.cs" />
     <None Include="052_PrimeNumbers.cs" />
     <None Include="051_TimesTable - Copy.cs" />
     <None Include="051_TimesTable.cs" />
     <None Include="050_SumOffactorial.cs" />
     <None Include="048_InfiniteLoop.cs" />
-    <None Include="9999_String.cs" />
+    <Compile Include="054_ArrayBasic.cs" />
     <None Include="046_FindingPI.cs" />
     <None Include="049_UsinBreak.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
