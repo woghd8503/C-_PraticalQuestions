@@ -1,0 +1,13 @@
+D:\01.Coding_study\CS_PracticalQuestions\csPracticalQuestions\Part2_Middle\bin\Debug\netcoreapp3.1\Part2_Middle.exe
+D:\01.Coding_study\CS_PracticalQuestions\csPracticalQuestions\Part2_Middle\bin\Debug\netcoreapp3.1\Part2_Middle.deps.json
+D:\01.Coding_study\CS_PracticalQuestions\csPracticalQuestions\Part2_Middle\bin\Debug\netcoreapp3.1\Part2_Middle.runtimeconfig.json
+D:\01.Coding_study\CS_PracticalQuestions\csPracticalQuestions\Part2_Middle\bin\Debug\netcoreapp3.1\Part2_Middle.runtimeconfig.dev.json
+D:\01.Coding_study\CS_PracticalQuestions\csPracticalQuestions\Part2_Middle\bin\Debug\netcoreapp3.1\Part2_Middle.dll
+D:\01.Coding_study\CS_PracticalQuestions\csPracticalQuestions\Part2_Middle\bin\Debug\netcoreapp3.1\Part2_Middle.pdb
+D:\01.Coding_study\CS_PracticalQuestions\csPracticalQuestions\Part2_Middle\obj\Debug\netcoreapp3.1\Part2_Middle.csprojAssemblyReference.cache
+D:\01.Coding_study\CS_PracticalQuestions\csPracticalQuestions\Part2_Middle\obj\Debug\netcoreapp3.1\Part2_Middle.AssemblyInfoInputs.cache
+D:\01.Coding_study\CS_PracticalQuestions\csPracticalQuestions\Part2_Middle\obj\Debug\netcoreapp3.1\Part2_Middle.AssemblyInfo.cs
+D:\01.Coding_study\CS_PracticalQuestions\csPracticalQuestions\Part2_Middle\obj\Debug\netcoreapp3.1\Part2_Middle.csproj.CoreCompileInputs.cache
+D:\01.Coding_study\CS_PracticalQuestions\csPracticalQuestions\Part2_Middle\obj\Debug\netcoreapp3.1\Part2_Middle.dll
+D:\01.Coding_study\CS_PracticalQuestions\csPracticalQuestions\Part2_Middle\obj\Debug\netcoreapp3.1\Part2_Middle.pdb
+D:\01.Coding_study\CS_PracticalQuestions\csPracticalQuestions\Part2_Middle\obj\Debug\netcoreapp3.1\Part2_Middle.genruntimeconfig.cache

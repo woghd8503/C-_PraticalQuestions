@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="054_ArrayBasic.cs" />
+    <Compile Remove="056_ArrayClass - Copy.cs" />
+    <Compile Remove="056_ArrayClass.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="054_ArrayBasic.cs" />
+    <None Include="056_ArrayClass - Copy.cs" />
+    <None Include="056_ArrayClass.cs" />
+  </ItemGroup>
+
+</Project>

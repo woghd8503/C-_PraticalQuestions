@@ -95,7 +95,6 @@
     <None Include="051_TimesTable.cs" />
     <None Include="050_SumOffactorial.cs" />
     <None Include="048_InfiniteLoop.cs" />
-    <Compile Include="054_ArrayBasic.cs" />
     <None Include="046_FindingPI.cs" />
     <None Include="049_UsinBreak.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
