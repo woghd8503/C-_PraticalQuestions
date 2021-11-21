@@ -12,7 +12,7 @@
     <Compile Remove="057_ ArraySorting.cs" />
     <Compile Remove="057_ArraySorting.cs" />
     <Compile Remove="058_ArraySorting .cs" />
-    <Compile Remove="060_.cs" />
+    <Compile Remove="059_RandomClass.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -21,7 +21,7 @@
     <None Include="056_MultiDimensionArray.cs" />
     <None Include="057_ArraySorting.cs" />
     <None Include="058_ArraySorting .cs" />
-    <None Include="060_.cs" />
+    <None Include="059_RandomClass.cs" />
     <Resource Include="057_ ArraySorting.cs" />
   </ItemGroup>
 
