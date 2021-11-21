@@ -10,12 +10,18 @@
     <Compile Remove="055_ArrayClass.cs" />
     <Compile Remove="056_MultiDimensionArray.cs" />
     <Compile Remove="057_ ArraySorting.cs" />
+    <Compile Remove="057_ArraySorting.cs" />
+    <Compile Remove="058_ArraySorting .cs" />
+    <Compile Remove="060_.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="054_ArrayBasic.cs" />
     <None Include="055_ArrayClass.cs" />
     <None Include="056_MultiDimensionArray.cs" />
+    <None Include="057_ArraySorting.cs" />
+    <None Include="058_ArraySorting .cs" />
+    <None Include="060_.cs" />
     <Resource Include="057_ ArraySorting.cs" />
   </ItemGroup>
 
