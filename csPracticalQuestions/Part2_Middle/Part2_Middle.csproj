@@ -15,6 +15,7 @@
     <Compile Remove="059_ArrayAndRandom.cs" />
     <Compile Remove="060_BinarySearch.cs" />
     <Compile Remove="061_BubbleSort.cs" />
+    <Compile Remove="062_ClassAndStruct.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -26,6 +27,7 @@
     <None Include="059_ArrayAndRandom.cs" />
     <None Include="060_BinarySearch.cs" />
     <None Include="061_BubbleSort.cs" />
+    <None Include="062_ClassAndStruct.cs" />
     <Resource Include="057_ ArraySorting.cs" />
   </ItemGroup>
 
