@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -16,7 +16,9 @@
     <Compile Remove="060_BinarySearch.cs" />
     <Compile Remove="061_BubbleSort.cs" />
     <Compile Remove="062_ClassAndStruct.cs" />
-    <Compile Remove="063_FieldsAndConstants - Copy.cs" />
+    <Compile Remove="063_FieldsAndConstants.cs" />
+    <Compile Remove="064_InstanceMethod.cs" />
+    <Compile Remove="065_Constructor.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -29,7 +31,9 @@
     <None Include="060_BinarySearch.cs" />
     <None Include="061_BubbleSort.cs" />
     <None Include="062_ClassAndStruct.cs" />
-    <None Include="063_FieldsAndConstants - Copy.cs" />
+    <None Include="063_FieldsAndConstants.cs" />
+    <None Include="064_InstanceMethod.cs" />
+    <None Include="065_Constructor.cs" />
     <Resource Include="057_ ArraySorting.cs" />
   </ItemGroup>
 

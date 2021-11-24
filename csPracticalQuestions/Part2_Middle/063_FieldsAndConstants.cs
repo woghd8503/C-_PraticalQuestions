@@ -7,39 +7,38 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class Date
+    class Product
     {
-        public int year, month, day;
-
-        public static bool IsLeapYear(int year)
-        {
-            return year % 4 == 0 && (year % 100 != 0 || year % 400 == 0);
-        }
-
-        static int[] days = { 0, 31, 69, 90, 120, 151, 181, 212, 243, 273, 304, 334 };
-
-        public int DayOfYear()
-        {
-            return days[month - 1] + day + (month > 2 && IsLeapYear(year) ? 1 : 0);
-        }
+        public string name;
+        public int price;
     }
 
-    class InstanceMethod
+    class MyMath
     {
-        static void Main()
+        public static double PI = 3.14;
+    }
+
+    class MyCalendar
+    {
+        public const int months = 12;
+        public const int weeks = 52;
+        public const int days = 365;
+
+        public const double daysPerWeek = (double)days / (double)weeks;
+        public const double daysPerMonth = (double)days / (double)months;
+    }
+
+    class MemberVariables
+    {
+        static void Main(string[] args)
         {
-            Date xmas = new Date();
+            Product p = new Product();
+            p.name = "시계";
+            p.price = 100000;
 
-            xmas.year = 2018;
-            xmas.month = 12;
-            xmas.day = 25;
-
-            Console.WriteLine("xmas : {0}/{1}/{2}는 {3}일째 되는 날입니다", xmas.year, xmas.month, xmas.day, xmas.DayOfYear());
-
-            if(Date.IsLeapYear(2018) == true)
-                Console.WriteLine("2018년은 윤년입니다");
-            else
-                Console.WriteLine("2018년은 평년입니다");
+            Console.WriteLine("{0} : {1:C}", p.name, p.price);
+            Console.WriteLine("원주율: {0}", MyMath.PI);
+            Console.WriteLine("한 달은 평균 {0:F3}일", MyCalendar.daysPerMonth);
         }
     }
 }
