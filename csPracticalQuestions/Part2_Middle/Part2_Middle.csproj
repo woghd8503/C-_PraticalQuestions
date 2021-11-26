@@ -19,6 +19,7 @@
     <Compile Remove="063_FieldsAndConstants.cs" />
     <Compile Remove="064_InstanceMethod.cs" />
     <Compile Remove="065_Constructor.cs" />
+    <Compile Remove="067_Property - Copy.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -34,6 +35,7 @@
     <None Include="063_FieldsAndConstants.cs" />
     <None Include="064_InstanceMethod.cs" />
     <None Include="065_Constructor.cs" />
+    <None Include="067_Property - Copy.cs" />
     <Resource Include="057_ ArraySorting.cs" />
   </ItemGroup>
 
