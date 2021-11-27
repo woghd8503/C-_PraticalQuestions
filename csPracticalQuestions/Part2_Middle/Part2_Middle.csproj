@@ -20,6 +20,7 @@
     <Compile Remove="064_InstanceMethod.cs" />
     <Compile Remove="065_Constructor.cs" />
     <Compile Remove="066_Property.cs" />
+    <Compile Remove="067_StaticMethods.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -36,6 +37,7 @@
     <None Include="064_InstanceMethod.cs" />
     <None Include="065_Constructor.cs" />
     <None Include="066_Property.cs" />
+    <None Include="067_StaticMethods.cs" />
     <Resource Include="057_ ArraySorting.cs" />
   </ItemGroup>
 
