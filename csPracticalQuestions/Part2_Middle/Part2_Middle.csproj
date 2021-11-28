@@ -26,6 +26,12 @@
     <Compile Remove="070_IsLeapYear.cs" />
     <Compile Remove="071_AgeCalculator.cs" />
     <Compile Remove="072_PyramidMethod.cs" />
+    <Compile Remove="072_PyramidMethods.cs" />
+    <Compile Remove="073_Factorial.cs" />
+    <Compile Remove="074_Add.cs" />
+    <Compile Remove="075_Power.cs" />
+    <Compile Remove="076_AreaOfCircle.cs" />
+    <Compile Remove="077_RecursivePower.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -47,6 +53,12 @@
     <None Include="069_IsLeapYear.cs" />
     <None Include="070_IsLeapYear.cs" />
     <None Include="071_AgeCalculator.cs" />
+    <None Include="072_PyramidMethods.cs" />
+    <None Include="073_Factorial.cs" />
+    <None Include="074_Add.cs" />
+    <None Include="075_Power.cs" />
+    <None Include="076_AreaOfCircle.cs" />
+    <None Include="077_RecursivePower.cs" />
     <Resource Include="072_PyramidMethod.cs" />
     <Resource Include="057_ ArraySorting.cs" />
   </ItemGroup>
