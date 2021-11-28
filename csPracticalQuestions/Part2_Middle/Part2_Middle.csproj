@@ -21,6 +21,11 @@
     <Compile Remove="065_Constructor.cs" />
     <Compile Remove="066_Property.cs" />
     <Compile Remove="067_StaticMethods.cs" />
+    <Compile Remove="068_IsPrime.cs" />
+    <Compile Remove="069_IsLeapYear.cs" />
+    <Compile Remove="070_IsLeapYear.cs" />
+    <Compile Remove="071_AgeCalculator.cs" />
+    <Compile Remove="072_PyramidMethod.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -38,6 +43,11 @@
     <None Include="065_Constructor.cs" />
     <None Include="066_Property.cs" />
     <None Include="067_StaticMethods.cs" />
+    <None Include="068_IsPrime.cs" />
+    <None Include="069_IsLeapYear.cs" />
+    <None Include="070_IsLeapYear.cs" />
+    <None Include="071_AgeCalculator.cs" />
+    <Resource Include="072_PyramidMethod.cs" />
     <Resource Include="057_ ArraySorting.cs" />
   </ItemGroup>
 
