@@ -37,6 +37,7 @@
     <Compile Remove="079_RecursiveSumOfReciprocal.cs" />
     <Compile Remove="080_HanoiTower.cs" />
     <Compile Remove="081_Recursive BinarySearch.cs" />
+    <Compile Remove="082_Recursive BinarySearch.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -68,6 +69,7 @@
     <None Include="079_RecursiveSumOfReciprocal.cs" />
     <None Include="080_HanoiTower.cs" />
     <None Include="081_Recursive BinarySearch.cs" />
+    <None Include="082_Recursive BinarySearch.cs" />
     <Resource Include="072_PyramidMethod.cs" />
     <Resource Include="057_ ArraySorting.cs" />
     <Resource Include="078_RecursiveFactorial - Copy.cs" />
