@@ -17,7 +17,6 @@ namespace ConsoleApp1
         }
 
         private static double Fact(double x)
-        private static double Fact(double x)
         {
             // 1! = 1, n! = n*(n-1)!
             if (x == 1)

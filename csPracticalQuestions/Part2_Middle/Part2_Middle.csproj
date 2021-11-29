@@ -32,6 +32,11 @@
     <Compile Remove="075_Power.cs" />
     <Compile Remove="076_AreaOfCircle.cs" />
     <Compile Remove="077_RecursivePower.cs" />
+    <Compile Remove="078_RecursiveFactorial - Copy.cs" />
+    <Compile Remove="078_RecursiveFactorial.cs" />
+    <Compile Remove="079_RecursiveSumOfReciprocal.cs" />
+    <Compile Remove="080_HanoiTower.cs" />
+    <Compile Remove="081_Recursive BinarySearch.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -59,8 +64,13 @@
     <None Include="075_Power.cs" />
     <None Include="076_AreaOfCircle.cs" />
     <None Include="077_RecursivePower.cs" />
+    <None Include="078_RecursiveFactorial.cs" />
+    <None Include="079_RecursiveSumOfReciprocal.cs" />
+    <None Include="080_HanoiTower.cs" />
+    <None Include="081_Recursive BinarySearch.cs" />
     <Resource Include="072_PyramidMethod.cs" />
     <Resource Include="057_ ArraySorting.cs" />
+    <Resource Include="078_RecursiveFactorial - Copy.cs" />
   </ItemGroup>
 
 </Project>
