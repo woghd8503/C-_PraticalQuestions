@@ -39,6 +39,7 @@
     <Compile Remove="081_Recursive BinarySearch.cs" />
     <Compile Remove="082_ExecutionTime.cs" />
     <Compile Remove="083_DateTime.cs" />
+    <Compile Remove="084_TimeSpan.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -72,6 +73,7 @@
     <None Include="081_Recursive BinarySearch.cs" />
     <None Include="082_ExecutionTime.cs" />
     <None Include="083_DateTime.cs" />
+    <None Include="084_TimeSpan.cs" />
     <Resource Include="072_PyramidMethod.cs" />
     <Resource Include="057_ ArraySorting.cs" />
     <Resource Include="078_RecursiveFactorial - Copy.cs" />
