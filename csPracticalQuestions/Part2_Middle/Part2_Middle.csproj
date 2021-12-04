@@ -41,6 +41,7 @@
     <Compile Remove="083_DateTime.cs" />
     <Compile Remove="084_TimeSpan.cs" />
     <Compile Remove="085_LifeTimeCalc.cs" />
+    <Compile Remove="086_DateTimeFormat.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -76,6 +77,7 @@
     <None Include="083_DateTime.cs" />
     <None Include="084_TimeSpan.cs" />
     <None Include="085_LifeTimeCalc.cs" />
+    <None Include="086_DateTimeFormat.cs" />
     <Resource Include="072_PyramidMethod.cs" />
     <Resource Include="057_ ArraySorting.cs" />
     <Resource Include="078_RecursiveFactorial - Copy.cs" />
