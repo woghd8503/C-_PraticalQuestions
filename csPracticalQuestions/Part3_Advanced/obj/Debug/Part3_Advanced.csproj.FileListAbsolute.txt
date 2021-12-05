@@ -1,0 +1,7 @@
+D:\01.Coding_study\CS_PracticalQuestions\csPracticalQuestions\Part3_Advanced\bin\Debug\Part3_Advanced.exe.config
+D:\01.Coding_study\CS_PracticalQuestions\csPracticalQuestions\Part3_Advanced\bin\Debug\Part3_Advanced.exe
+D:\01.Coding_study\CS_PracticalQuestions\csPracticalQuestions\Part3_Advanced\bin\Debug\Part3_Advanced.pdb
+D:\01.Coding_study\CS_PracticalQuestions\csPracticalQuestions\Part3_Advanced\obj\Debug\Part3_Advanced.csprojAssemblyReference.cache
+D:\01.Coding_study\CS_PracticalQuestions\csPracticalQuestions\Part3_Advanced\obj\Debug\Part3_Advanced.csproj.CoreCompileInputs.cache
+D:\01.Coding_study\CS_PracticalQuestions\csPracticalQuestions\Part3_Advanced\obj\Debug\Part3_Advanced.exe
+D:\01.Coding_study\CS_PracticalQuestions\csPracticalQuestions\Part3_Advanced\obj\Debug\Part3_Advanced.pdb
