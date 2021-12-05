@@ -43,6 +43,7 @@
     <Compile Remove="085_LifeTimeCalc.cs" />
     <Compile Remove="086_DateTimeFormat.cs" />
     <Compile Remove="087_MethodArguments.cs" />
+    <Compile Remove="088_Params.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -80,6 +81,7 @@
     <None Include="085_LifeTimeCalc.cs" />
     <None Include="086_DateTimeFormat.cs" />
     <None Include="087_MethodArguments.cs" />
+    <None Include="088_Params.cs" />
     <Resource Include="072_PyramidMethod.cs" />
     <Resource Include="057_ ArraySorting.cs" />
     <Resource Include="078_RecursiveFactorial - Copy.cs" />
