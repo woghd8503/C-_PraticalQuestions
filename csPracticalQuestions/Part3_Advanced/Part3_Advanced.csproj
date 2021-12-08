@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="095_UsingLinkedList.cs" />
     <Compile Include="094_LinkedList.cs" />
     <None Include="093_GenericMethodsUsingDynamic.cs" />
     <None Include="092_GenericClass.cs" />
