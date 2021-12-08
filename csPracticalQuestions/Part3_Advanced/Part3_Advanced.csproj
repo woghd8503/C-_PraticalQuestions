@@ -43,8 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="93_GenericClass.cs" />
-    <None Include="92_GenericMethod.cs" />
+    <Compile Include="094_LinkedList.cs" />
+    <None Include="093_GenericMethodsUsingDynamic.cs" />
+    <None Include="092_GenericClass.cs" />
+    <None Include="091_GenericMethod.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
