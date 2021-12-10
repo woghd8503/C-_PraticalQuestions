@@ -19,7 +19,7 @@ namespace ConsoleApp1
             {
                 int val = r.Next(100);
                 stack.Push(val);
-                Console.Write("Push");
+                Console.Write("Push(");
             }
         }
             

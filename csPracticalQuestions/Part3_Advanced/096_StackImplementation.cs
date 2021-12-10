@@ -23,12 +23,28 @@ namespace ConsoleApp1
         {
             if (top < maxSize)
             {
-
+                arr[top] = val;
+                ++top;
+            }
+            else
+            {
+                Console.WriteLine("Stack Full");
+                return;
             }
         }
-      static void Main(string[] args)
+
+        public T Pop()
         {
-            
+            if(top > 0)
+            {
+                --top;
+                return arr[top];
+            }
+            else
+            {
+                Console.WriteLine("Stack Empty");
+                return default(T);
+            }
         }
     }
 }
