@@ -48,7 +48,7 @@
     <None Include="093_GenericMethodsUsingDynamic.cs" />
     <None Include="092_GenericClass.cs" />
     <None Include="091_GenericMethod.cs" />
-    <None Include="097_StackImplementation.cs" />
+    <Compile Include="097_StackImplementation.cs" />
     <Compile Include="096_StackImplementation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

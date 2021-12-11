@@ -19,10 +19,12 @@ namespace ConsoleApp1
             {
                 int val = r.Next(100);
                 stack.Push(val);
-                Console.Write("Push(");
+                Console.Write("Push(" + val + ") ");
             }
-        }
-            
-    }
+            Console.WriteLine();
 
+            for (int i = 0; i < 10; i++)
+                Console.Write("Pop()=" + stack.Pop() + ",");
+        }
+    }
 }
