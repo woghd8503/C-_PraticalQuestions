@@ -32,7 +32,6 @@ namespace ConsoleApp1
                 return;
             }
         }
-
         public T Pop()
         {
             if(top > 0)
