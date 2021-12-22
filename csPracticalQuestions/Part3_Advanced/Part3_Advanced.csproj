@@ -56,6 +56,7 @@
     <None Include="097_StackImplementation.cs" />
     <None Include="096_StackImplementation.cs" />
     <None Include="099_QueueImplementation.cs" />
+    <Compile Include="110_Indexer - Copy.cs" />
     <Compile Include="110_Indexer.cs" />
     <None Include="109_SortedList.cs" />
     <None Include="108_Dictionary.cs" />
