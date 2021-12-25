@@ -60,7 +60,8 @@
     <None Include="112_AnonymousDelegate.cs" />
     <None Include="113_FuncAndAction.cs" />
     <None Include="115_LambdaExamples.cs" />
-    <Compile Include="118_LinqBasic.cs" />
+    <Compile Include="119_LinqBasic2.cs" />
+    <None Include="118_LinqBasic1.cs" />
     <None Include="117_ListAndLambda.cs" />
     <None Include="116_Predicate.cs" />
     <None Include="114_LambdaExpression.cs" />
