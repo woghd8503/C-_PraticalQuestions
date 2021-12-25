@@ -59,7 +59,9 @@
     <None Include="111_DelegateExample.cs" />
     <None Include="112_AnonymousDelegate.cs" />
     <None Include="113_FuncAndAction.cs" />
-    <Compile Include="115_LambdaExamples.cs" />
+    <None Include="115_LambdaExamples.cs" />
+    <Compile Include="117_ListAndLambda.cs" />
+    <None Include="116_Predicate.cs" />
     <None Include="114_LambdaExpression.cs" />
     <None Include="110_Indexer.cs" />
     <None Include="109_SortedList.cs" />
