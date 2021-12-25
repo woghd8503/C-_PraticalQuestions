@@ -56,9 +56,11 @@
     <None Include="097_StackImplementation.cs" />
     <None Include="096_StackImplementation.cs" />
     <None Include="099_QueueImplementation.cs" />
-    <None Include="111_DelegateExample - Copy.cs" />
-    <Compile Include="112_AnonymousDelegate - Copy.cs" />
-    <Compile Include="112_AnonymousDelegate.cs" />
+    <None Include="111_DelegateExample.cs" />
+    <None Include="112_AnonymousDelegate.cs" />
+    <None Include="113_FuncAndAction.cs" />
+    <Compile Include="115_LambdaExamples.cs" />
+    <None Include="114_LambdaExpression.cs" />
     <None Include="110_Indexer.cs" />
     <None Include="109_SortedList.cs" />
     <None Include="108_Dictionary.cs" />
