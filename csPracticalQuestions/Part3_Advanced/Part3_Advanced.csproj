@@ -60,7 +60,8 @@
     <None Include="112_AnonymousDelegate.cs" />
     <None Include="113_FuncAndAction.cs" />
     <None Include="115_LambdaExamples.cs" />
-    <Compile Include="120_LigqToList - Copy.cs" />
+    <Compile Include="122_L%29.cs" />
+    <Compile Include="121_.cs" />
     <Compile Include="120_LigqToList.cs" />
     <None Include="119_LinqBasic2.cs" />
     <None Include="118_LinqBasic1.cs" />
