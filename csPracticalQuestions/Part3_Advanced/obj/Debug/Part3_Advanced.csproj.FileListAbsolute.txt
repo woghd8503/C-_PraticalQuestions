@@ -5,3 +5,10 @@ D:\01.Coding_study\CS_PracticalQuestions\csPracticalQuestions\Part3_Advanced\obj
 D:\01.Coding_study\CS_PracticalQuestions\csPracticalQuestions\Part3_Advanced\obj\Debug\Part3_Advanced.csproj.CoreCompileInputs.cache
 D:\01.Coding_study\CS_PracticalQuestions\csPracticalQuestions\Part3_Advanced\obj\Debug\Part3_Advanced.exe
 D:\01.Coding_study\CS_PracticalQuestions\csPracticalQuestions\Part3_Advanced\obj\Debug\Part3_Advanced.pdb
+D:\ParkJaeHong\CodingStudy\CS_grammar\csPracticalQuestions\Part3_Advanced\bin\Debug\Part3_Advanced.exe.config
+D:\ParkJaeHong\CodingStudy\CS_grammar\csPracticalQuestions\Part3_Advanced\bin\Debug\Part3_Advanced.exe
+D:\ParkJaeHong\CodingStudy\CS_grammar\csPracticalQuestions\Part3_Advanced\bin\Debug\Part3_Advanced.pdb
+D:\ParkJaeHong\CodingStudy\CS_grammar\csPracticalQuestions\Part3_Advanced\obj\Debug\Part3_Advanced.csproj.AssemblyReference.cache
+D:\ParkJaeHong\CodingStudy\CS_grammar\csPracticalQuestions\Part3_Advanced\obj\Debug\Part3_Advanced.csproj.CoreCompileInputs.cache
+D:\ParkJaeHong\CodingStudy\CS_grammar\csPracticalQuestions\Part3_Advanced\obj\Debug\Part3_Advanced.exe
+D:\ParkJaeHong\CodingStudy\CS_grammar\csPracticalQuestions\Part3_Advanced\obj\Debug\Part3_Advanced.pdb
