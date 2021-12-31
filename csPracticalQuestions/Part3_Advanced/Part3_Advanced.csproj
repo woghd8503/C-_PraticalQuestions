@@ -60,8 +60,8 @@
     <None Include="112_AnonymousDelegate.cs" />
     <None Include="113_FuncAndAction.cs" />
     <None Include="115_LambdaExamples.cs" />
-    <None Include="122_L%29 - Copy.cs" />
-    <None Include="122_L%29.cs" />
+    <None Include="124_L%29 - Copy.cs" />
+    <None Include="125_L%29.cs" />
     <None Include="121_LinqToCollection.cs" />
     <None Include="120_LinqToList.cs" />
     <None Include="119_LinqBasic2.cs" />
@@ -76,8 +76,8 @@
     <None Include="106_Queue.cs" />
     <None Include="105_IComparable.cs" />
     <None Include="104_ReverseComparer.cs" />
-    <Compile Include="122_L%29 - Copy %282%29.cs" />
-    <None Include="122_L%29 - Copy %283%29.cs" />
+    <Compile Include="122_LinqGroupBy.cs" />
+    <None Include="123_L%29 - Copy %283%29.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
