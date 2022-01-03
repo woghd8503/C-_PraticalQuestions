@@ -45,7 +45,7 @@
   <ItemGroup>
     <None Include="095_UsingLinkedList.cs" />
     <None Include="094_LinkedList.cs" />
-    <None Include="093_GenericMethodsUsingDynamic.cs" />
+    <Compile Include="093_GenericMethodsUsingDynamic.cs" />
     <None Include="092_GenericClass.cs" />
     <None Include="091_GenericMethod.cs" />
     <None Include="100_ArrayList.cs" />
@@ -74,7 +74,7 @@
     <None Include="106_Queue.cs" />
     <None Include="105_IComparable.cs" />
     <None Include="104_ReverseComparer.cs" />
-    <Compile Include="122_LinqGroupBy.cs" />
+    <None Include="122_LinqGroupBy.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
