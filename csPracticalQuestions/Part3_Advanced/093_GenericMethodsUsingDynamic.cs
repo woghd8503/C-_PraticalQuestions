@@ -16,55 +16,27 @@ using System.Threading.Tasks;
 
 namespace Part3_Advanced
 {
-    class MyClass<T>
-    {
-        private T[] arr;
-        private int count = 0;
-
-        public MyClass(int length)
-        {
-            arr = new T[length];
-            count = length;
-        }
-
-        public void Insert(params T[] args)
-        {
-            for (int i = 0; i < args.Length; i++)
-                arr[i] = args[i];
-        }
-
-        public void Print()
-        {
-            foreach (T i in arr)
-                Console.Write(i + " ");
-            Console.WriteLine();
-        }
-
-        public T AddAll()
-        {
-            T sum = default(T);
-            foreach (T item in arr)
-                sum = sum + (dynamic)item;
-            return sum;
-        }
-    }
-
     class Program
     {
-        static void Main(string[] args)
+        static void Maina(string[] args)
         {
-            MyClass<int> a = new MyClass<int>(10);
-            MyClass<string> s = new MyClass<string>(5);
+            int[] a = { 10, 45, 32, 47, 85, 46, 93, 47, 50, 71 };
+            double[] d = { 0.1, 5.3, 6.7, 8.5, 4.9, 6.1 };
+            float[] f = { 1.2f, 5.3f, 7.8f, 6.1f, 3.4f, 8.8f };
+            decimal[] c = { 123, 789, 456, 234, 456, 748 };
 
-            a.Insert(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
-            s.Insert("Tiger", "Lion", "Zebra", "Monkey", "Cow");
-
-            a.Print();
-            s.Print();
-
-            Console.WriteLine("a.AddAll() : " + a.AddAll());
-            Console.WriteLine("s.AddAll() : " + s.AddAll());
+            PrintArray<int>("a[] :", a);
+            CalcArray<int>(a);
+            PrintArray<double>("d[] :", d);
+            CalcArray<double>(d);
+            PrintArray<float>("f[] :", f);
+            CalcArray<float>(f);
+            PrintArray<decimal>("c[] :", c);
+            CalcArray<decimal>(c);
         }
+
+        private static void CalcArray<T>(T[] a)
     }
+
 }
 
