@@ -20,6 +20,10 @@ using System.Threading.Tasks;
 // EnQueue() : 큐에 값을 추가합니다.
 // DeQueue() : 큐에서 값을 삭제합니다.
 // Print() : 큐의 내용을 입력된 순서로 출력합니다.
+
+// 다음의 예제는 큐를 연결리스트로 구현한 프로그램입니다. 배열로도 구현할 수 있습니다. 배열로 구현하는 것과 비교하면 코드는 조금 더 길지만 배열리 가득차서 EnQueue를
+// 못하는 경우가 없다는 장점이 있습니다.
+
 namespace ConsoleApp1
 {
     class Node<T>
