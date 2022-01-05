@@ -11,7 +11,15 @@ using System.Threading.Tasks;
 // 하지만 이번 장에서는 직접 큐를 만들겠습니다. 컬렉션에서 제공하는 Queue <T>와 구분하기 위해서 MyQueue <T>를 만듭니다. 프로젝트는 Main()이 있는 Program
 // 클래스가 있는 program.cs와 MyQueue <T>클래스를 정의하는 myQueue.cs 파일 두 개로 구성합니다.
 
-// Queue.cs  파일에서 MyQueue <T> 클래스를 정의합니다. 큐에 저장되는 값이 여러 가지 타입일 수 있으므로 제너릭으로 정의합니다. MyQueue
+// Queue.cs  파일에서 MyQueue <T> 클래스를 정의합니다. 큐에 저장되는 값이 여러 가지 타입일 수 있으므로 제너릭으로 정의합니다. MyQueue <T> 클래스에는 큐의
+// 맨 앞과 맨 뒤를 가리키는 first와 last 필드를 갖습니다. 각각의 자료는 Node <T>로 저장되므로 Node <T> 클래스도 정의합니다. MyQueue <T> 클래스의 메소드는
+// 값을 추가하는 EnQueue()와 값을 삭제하는 DeQueue()가 있습니다. 큐에 대한 자세한 설명은 생략하겠습니다.
+
+// first : 큐의 첫 번째 요소를 가리키는 참조입니다.
+// last : 큐의 마지막 요소를 가리키는 참조입니다.
+// EnQueue() : 큐에 값을 추가합니다.
+// DeQueue() : 큐에서 값을 삭제합니다.
+// Print() : 큐의 내용을 입력된 순서로 출력합니다.
 namespace ConsoleApp1
 {
     class Node<T>
