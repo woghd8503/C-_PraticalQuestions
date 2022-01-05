@@ -22,8 +22,10 @@ using System.Collections;
 // 컬렉션은 현재 용량에 도달하면 자동으로 용량을 확장합니다.
 // 일관된 하한 : 컬렉션의 하한은 첫 번째 요소의 인덱스입니다. System.Collection 네임스페이스의 모든 컬렉션은 하한이 0입니다. 즉 0부터 인덱싱됩니다.
 
-
-
+// 시나리오별 컬렉션 선택 기준
+//                    수행할 작업                      /     Generic collection    /     Non-generic collection
+// 키별로 빠르게 조회할 수 있도록 키/값 쌍으로 저장          Dictionary<TKey,TValue>               Hashtable
+// 인덱스별로 항목 엑세스
 namespace ConsoleApp1
 {
    class Program
