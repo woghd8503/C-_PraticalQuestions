@@ -24,9 +24,12 @@ using System.Collections;
 
 // 시나리오별 컬렉션 선택 기준
 //                    수행할 작업                      /     Generic collection    /     Non-generic collection
-// 키별로 빠르게 조회할 수 있도록 키/값 쌍으로 저장          Dictionary<TKey,TValue>               Hashtable
+// 키별로 빠르게 조회할 수 있도록 키/값 쌍으로 저장       /  Dictionary<TKey,TValue>  /             Hashtable
 // 인덱스별로 항목 엑세스                               /  List<T>                  / Array, ArrayList
-// FIFO(선입 선출) 방식으로 항목 사용                   /  Queue<T>                 
+// FIFO(선입 선출) 방식으로 항목 사용                   /  Queue<T>                 / Queue
+// LIFO(후입 선출) 방식으로 데이터 사용                 /  Stack<T>                  / Stack
+// 순서대로 항목 엑세스                                /  LinkedList<T>             / -
+
 namespace ConsoleApp1
 {
    class Program
