@@ -29,6 +29,11 @@ using System.Collections;
 // FIFO(선입 선출) 방식으로 항목 사용                   /  Queue<T>                 / Queue
 // LIFO(후입 선출) 방식으로 데이터 사용                 /  Stack<T>                  / Stack
 // 순서대로 항목 엑세스                                /  LinkedList<T>             / -
+// 컬렉션에 항목을 추가하거나 삭제할 때 알림 표시        /  ObservableCollection<T>   / -
+// 정렬된 컬렉션                                      /  HashSet<T>, SortedSet<T>   / - 
+
+// 컬력션의 예로 ArrayList를 사용해 보겠습니다. ArrayList는 이름에서 알 수 있듯이 배열과 유사한 컬렉션입니다. ArrayList의 가장 큰 장점은 배열과 달리 생성할
+// 때 용량을 미리 지정할 필요없이 필요에 따라 자동으로 그 용량이 늘어나거나 줄어든다는 점입니다.
 
 namespace ConsoleApp1
 {
