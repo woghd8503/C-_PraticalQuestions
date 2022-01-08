@@ -34,6 +34,15 @@ using System.Collections;
 
 // 컬력션의 예로 ArrayList를 사용해 보겠습니다. ArrayList는 이름에서 알 수 있듯이 배열과 유사한 컬렉션입니다. ArrayList의 가장 큰 장점은 배열과 달리 생성할
 // 때 용량을 미리 지정할 필요없이 필요에 따라 자동으로 그 용량이 늘어나거나 줄어든다는 점입니다.
+// ArrayList 클래스의 메소드는 20여개가 되지만 예제에서는 이중 많이 사용되는 Add(), RemoveAt(), Insert(), Sort()를 사용해 보겠습니다. Add()는 맨 뒤에 새 요소를
+// 추가하고, RemoveAt()은 특정 인덱스에 있는 요소를 제거합니다. Insert()는 원하는 위치에 새 요소를 삽입하고 Sort()는 요소들을 정렬합니다.
+// ArrayList에는 어떠한 값을 저장할 수 있을까요? 모든 타입의 값이 저장될 수 있습니다. ArrayList클래스의 메소드인 Add()를 보면 다음과 같이 정의되어 있습니다.
+// public virtual int Add (object value);
+
+// 즉, 매개변수로 object 타입을 가지고 있는데 C#의 모든 형신은 object를 상속받기 때문에 어떠한 형식의 데이터도 저장이 가능하게 되는 것입니다. 이것은 박싱(Boxing)과
+// 언박싱(Unboxing)을 통해서 이루어집니다. 그런데 박싱과 언박싱은 시간이 요구되는 작업이므로 ArrayList가 다루는 데이터가 많아지면 프로그램의 실행 속도가 늦어지게 됩니다.
+// 참고로 MSDN에서는 새로 프로그램을 작성할 때 ArrayList보다 성능이 우수한 List<T>를 사용하라고 추천하고 있습니다. ArrayList를 사용하여 100까지의 랜덤 정수 10개를
+// 저장하고 정렬한 후 출력하는 프로그램을 작성해 보겠습니다.
 
 namespace ConsoleApp1
 {
