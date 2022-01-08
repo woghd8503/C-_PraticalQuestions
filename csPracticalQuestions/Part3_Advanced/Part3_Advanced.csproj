@@ -51,7 +51,7 @@
     <None Include="100_ArrayList.cs" />
     <None Include="103_IComparer.cs" />
     <None Include="102_AlphabeticalSort.cs" />
-    <None Include="101_List.cs" />
+    <Compile Include="101_List.cs" />
     <None Include="098_QueueImplementation.cs" />
     <None Include="097_StackImplementation.cs" />
     <None Include="096_StackImplementation.cs" />
