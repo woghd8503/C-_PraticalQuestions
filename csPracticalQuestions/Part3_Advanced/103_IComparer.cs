@@ -23,7 +23,9 @@ using System.Threading.Tasks;
 // public static void Sort(Array, Int32, Int32)   // (2) 인텍스와 개수에 의한 정렬
 // public static void Sort(Array, IComparer);     // (3) IComparer에 의한 정렬
 
-// (1)번 방법은 가장 기본적인 오름차순 정렬 방법입니다. (2)번 방법은 정려한 인덱스와 개수를 지정하는 방법입니다. 예를 들어
+// (1)번 방법은 가장 기본적인 오름차순 정렬 방법입니다. (2)번 방법은 정려한 인덱스와 개수를 지정하는 방법입니다. 예를 들어 Array.Sort(arr, 2, 3)
+// 이라고 하면 배열의 2번 인텍스부터 3개의 요소만을 정렬해줍니다. (3)번 방법이 지금 사용할 수 있는 방법입니다. 즉, IComparer 인터페이스를 구현하여
+// 이 규칙에 따라 정렬하는 것입니다. ICopmarer 인터페이스는 다음과 같이 public int Compare() 메소드를 만들게 되어 있습니다. 
 namespace ConsoleApp1
 {
     // 내림차순 정렬
