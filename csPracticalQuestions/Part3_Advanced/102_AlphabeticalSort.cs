@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 // 리스트와 배열은 만드는 방법과 사용하는 방법이 서로 다릅니다. 우선 List<T>와 Array는 객체 생성 방법이 다릅니다.
 
 // List<string> lstNames = new LIst<string>();
+// Array<string> arrNames = new Array<string>();  // 에러
+// Array arrNames = new Array();                  // 에러
 namespace ConsoleApp1
 {
    class Program
