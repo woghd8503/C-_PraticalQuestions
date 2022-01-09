@@ -12,3 +12,4 @@ D:\ParkJaeHong\CodingStudy\CS_grammar\csPracticalQuestions\Part3_Advanced\obj\De
 D:\ParkJaeHong\CodingStudy\CS_grammar\csPracticalQuestions\Part3_Advanced\obj\Debug\Part3_Advanced.csproj.CoreCompileInputs.cache
 D:\ParkJaeHong\CodingStudy\CS_grammar\csPracticalQuestions\Part3_Advanced\obj\Debug\Part3_Advanced.exe
 D:\ParkJaeHong\CodingStudy\CS_grammar\csPracticalQuestions\Part3_Advanced\obj\Debug\Part3_Advanced.pdb
+D:\ParkJaeHong\CodingStudy\CS_grammar\csPracticalQuestions\Part3_Advanced\obj\Debug\Part3_Advanced.csproj.SuggestedBindingRedirects.cache

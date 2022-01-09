@@ -6,6 +6,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// 배열을 정렬할 때는 Array.Sort() 메소드를 사용합니다. Sort() 메소드는 디폴트로 오름차순으로 정렬합니다. 그렇다면 내림차순으로 정렬
+// 할 때는 어떻게 할까요?
+
+// 첫 번째 방법은 오름차순으로 정렬한 후, 배열의 내용을 뒤집어주면 됩니다. 즉 Array 클래스의 Sort() 메소드를 사용하여 정렬된 배열을
+// 만든 후에, Reverse()메소드를 사용합니다.
+
+// int[] arr = {12, 32, 43, 24, 8};
+// Array.Sort(arr);                 // 오름차순으로 정렬
+// Array.Reverse(arr);              // 배열의 내용을 뒤집어 줌 
+
+// 두 번재 방법은 Sort() 메소드의 IComparer 인터페이스를 구현해 주는 것입니다. Array 클래스의 Sort() 메소드는 다양한 방법으로 중복되어
+// 있습니다. 대표적으로 다음과 같은 세 가지 Sort() 메소드를 살펴보겠습니다.
+
+// public static void Sort(Array);                // (1) 오름차순 정렬
+// public static void Sort(Array, Int32, Int32)   // (2) 인텍스와 개수에 의한 정렬
+// public static void Sort(Array, IComparer);     // (3) IComparer에 의한 정렬
+
+// (1)번 방법은 가장 기본적인 오름차순 정렬 방법입니다. (2)번 방법은 정려한 인덱스와 개수를 지정하는 방법입니다. 예를 들어
 namespace ConsoleApp1
 {
     // 내림차순 정렬
