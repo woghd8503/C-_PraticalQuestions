@@ -8,17 +8,21 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\01.Coding_study\\CS_PracticalQuestions\\csPracticalQuestions\\Part2_Middle\\Part2_Middle.csproj",
+      "projectUniqueName": "D:\\ParkJaeHong\\CodingStudy\\CS_grammar\\csPracticalQuestions\\Part2_Middle\\Part2_Middle.csproj",
       "projectName": "Part2_Middle",
-      "projectPath": "D:\\01.Coding_study\\CS_PracticalQuestions\\csPracticalQuestions\\Part2_Middle\\Part2_Middle.csproj",
+      "projectPath": "D:\\ParkJaeHong\\CodingStudy\\CS_grammar\\csPracticalQuestions\\Part2_Middle\\Part2_Middle.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\01.Coding_study\\CS_PracticalQuestions\\csPracticalQuestions\\Part2_Middle\\obj\\",
+      "outputPath": "D:\\ParkJaeHong\\CodingStudy\\CS_grammar\\csPracticalQuestions\\Part2_Middle\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -60,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
