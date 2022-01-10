@@ -6,6 +6,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// 컬렉션이란 같은 형의 데이터를 모아서 처리하는 자료구조입니다. 배열도 컬렉션의 하나입니다.
+// 컬렉션에는 "제네릭 컬렉션"과 "제네릭이 아닌 컬렉션"의 두 가지 유형이 있습니다. .NET Framework 2.0에서
+// 추가된 제네릭 컬렉션은 컴파일 타임에 형식이 안전한 type-safe 컬렉션을 제공합니다. 
+// 이로 인해 제네릭 컬렉션은 일반적으로 성능이 더 뛰어납니다.
 namespace ConsoleApp1
 {
     // 내림차순 정렬
