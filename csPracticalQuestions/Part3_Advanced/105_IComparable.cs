@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// C#의 컬렉션은 대부분 Sort 메소드를 제공하는데 다음과 같이
 namespace ConsoleApp1
 {
     class Program
