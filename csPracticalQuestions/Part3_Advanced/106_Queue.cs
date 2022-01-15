@@ -10,7 +10,10 @@ using System.Threading.Tasks;
 // 극장이나 음식점에서 순서를 기다리면서 줄을 서면 먼저 온 사람이 먼저 들어갑니다. 이와 같이 큐 (Queue)는 자료가
 // 먼저 처리되므로 선입선출(FIFO, First-In First-Out)이라고도 합니다.
 
-// 배열이나 리스트가 인덱스로 특정 위치의 자료에 자유롭게 접근하는 반면에, Queue는 입력은 오직 위에서, 출력은 앞에서만 이루어집니다. 
+// 배열이나 리스트가 인덱스로 특정 위치의 자료에 자유롭게 접근하는 반면에, Queue는 입력은 오직 위에서, 출력은 앞에서만 이루어집니다. Queue에 자료를
+// 넣는 것을 Enqueue, 꺼내는 것을 Dequeue라고 합니다.
+
+// .NET 컬렉션은 제너릭 Queue<T>와 제네릭이 아닌 Queue를 제공합니다. 둘 중 Queue<T>의 사용을 권장합니다. Queue<T>의 사용 방법을 예제 프로그램으로 설명합니다.
 namespace ConsoleApp1
 {
     class Program
