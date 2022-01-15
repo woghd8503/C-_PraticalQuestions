@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// 큐와 반대로 스택은 나중에 저장된 자료가 먼저 처리될 때 사용하는 자료구조입니다. 나중에 들어온 자료가 먼저 처리되므로 후입선출
 namespace ConsoleApp1
 {
     class Program
