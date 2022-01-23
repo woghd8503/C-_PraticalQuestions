@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\01.Coding_study\\CS_PracticalQuestions\\csPracticalQuestions\\Part2_Middle\\Part2_Middle.csproj",
+      "projectUniqueName": "D:\\01.Coding_study\\CS_PracticalQuestions_\\csPracticalQuestions\\Part2_Middle\\Part2_Middle.csproj",
       "projectName": "Part2_Middle",
-      "projectPath": "D:\\01.Coding_study\\CS_PracticalQuestions\\csPracticalQuestions\\Part2_Middle\\Part2_Middle.csproj",
+      "projectPath": "D:\\01.Coding_study\\CS_PracticalQuestions_\\csPracticalQuestions\\Part2_Middle\\Part2_Middle.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\01.Coding_study\\CS_PracticalQuestions\\csPracticalQuestions\\Part2_Middle\\obj\\",
+      "outputPath": "D:\\01.Coding_study\\CS_PracticalQuestions_\\csPracticalQuestions\\Part2_Middle\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

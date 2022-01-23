@@ -12,6 +12,10 @@ using System.Threading.Tasks;
 
 // C#은 제네릭이 아닌 SortedList와 제네릭 SortedList<TKey,TValue>의 두 가지 SortedList를 제공합니다. 제네릭 SortedList<TKey,TValue>에서 TKey는
 // 키의 타입이고 TValue는 값의 타입입니다. 제네릭이 아닌 SortedList에서는 키와 값의 타입을 지정하지 않습니다.
+
+// SortedList는 다음과 같이 사용합니다. 키는 int타입이고 값은 string타입입니다.
+
+// SortedList<int, string> mySortedList = new SortedList<int,string>();
 namespace ConsoleApp1
 {
     class Program
