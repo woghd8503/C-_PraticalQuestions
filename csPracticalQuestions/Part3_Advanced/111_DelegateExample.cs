@@ -8,7 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 
 // 정수 배열에서 홀수와 짝수의 개수를 출력하는 프로그램이 있습니다.
-// int[] arr = new int[] { 3, 5, 4, 2, 6, 4, 6, 8, 54, 23, 4, 6, 4 }
+// int[] arr = new int[] { 3, 5, 4, 2, 6, 4, 6, 8, 54, 23, 4, 6, 4 };
+// Console.WriteLine("짝수의 개수: " + EvenCount(arr));
+// Console.WriteLine("홀수의 개수: " + OddCount(arr));
+
+// 홀수의 개수를 리턴하는 EvenCount() 메소드와 짝수의 개수를 리턴하는 OldCount() 메소드를 
+// 나란히 써보았습니다.
+
+// 
 namespace ConsoleApp1
 {
     class Program
