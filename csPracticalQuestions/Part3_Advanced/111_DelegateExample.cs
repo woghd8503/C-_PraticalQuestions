@@ -15,7 +15,16 @@ using System.Threading.Tasks;
 // 홀수의 개수를 리턴하는 EvenCount() 메소드와 짝수의 개수를 리턴하는 OldCount() 메소드를 
 // 나란히 써보았습니다.
 
-// 
+// static int EvenCount(int[] a)                static int OddCount(int[] a)
+// {                                            {
+//   int cnt = 0;                                 int cnt = 0;
+//   foreach (var n in a)                         foreach (var n in a)
+//   {                                            {
+//     if (n % 2 == 0)                              if (n % 2 == 1)
+//       cnt++;                                       cnt++;
+//   }                                            }
+//   return cnt;                                  return cnt;
+// }                                            }
 namespace ConsoleApp1
 {
     class Program
