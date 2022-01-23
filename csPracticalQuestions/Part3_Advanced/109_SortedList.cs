@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// SortedList 컬렉션은 키의 오름차순으로 키-값 쌍으로 저장합니다. 내부적으로 SortedList는 키와 값을 저장하는 두 개의 object[] 배열을 유지합니다.
+// 새로운 값이 들어오면 키를 이진탐색하여 적절한 인덱스를 찾고 그 곳에 키-값 쌍을 저장합니다.
 namespace ConsoleApp1
 {
     class Program
