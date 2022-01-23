@@ -7,6 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// SortedList 컬렉션은 키의 오름차순으로 키-값 쌍으로 저장합니다. 내부적으로 SortedList는 키와 값을 저장하는 두 개의 object[] 배열을 유지합니다.
+// 새로운 값이 들어오면 키를 이진탐색하여 적절한 인덱스를 찾고 그 곳에 키-값 쌍을 저장합니다.
+
+// C#은 제네릭이 아닌 SortedList와 제네릭 SortedList<TKey,TValue>의 두 가지 SortedList를 제공합니다. 제네릭 SortedList<TKey,TValue>에서 TKey는
+// 키의 타입이고 TValue는 값의 타입입니다. 제네릭이 아닌 SortedList에서는 키와 값의 타입을 지정하지 않습니다.
 namespace ConsoleApp1
 {
     class Program
