@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// 정수 배열에서 홀수와 짝수의 개수를 출력하는 프로그램이 있습니다.
+// int[] arr = new int[] { 3, 5, 4, 2, 6, 4, 6, 8, 54, 23, 4, 6, 4 }
 namespace ConsoleApp1
 {
     class Program
