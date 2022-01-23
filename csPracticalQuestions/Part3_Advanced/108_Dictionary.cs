@@ -20,25 +20,7 @@ using System.Threading.Tasks;
 // (1) 키는 중복될 수 없습니다. 중복된 키로 저장하면 ArgumentException이 발생합니다.
 // (2) 없는 키로 Hashtable에 접근하면 KeyNotFoundException이 발생합니다.
 // (3) 배열에서와 같은 순차적인 숫자 인덱스를 사용할 수 없습니다.
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 608ba215bfc3de8d4e7c4aaac694b089d5a04480
-=======
->>>>>>> 608ba215bfc3de8d4e7c4aaac694b089d5a04480
-=======
->>>>>>> 608ba215bfc3de8d4e7c4aaac694b089d5a04480
-=======
->>>>>>> 608ba215bfc3de8d4e7c4aaac694b089d5a04480
-=======
->>>>>>> 608ba215bfc3de8d4e7c4aaac694b089d5a04480
-=======
->>>>>>> 608ba215bfc3de8d4e7c4aaac694b089d5a04480
-=======
->>>>>>> 608ba215bfc3de8d4e7c4aaac694b089d5a04480
+
 namespace ConsoleApp1
 {
     class Program
