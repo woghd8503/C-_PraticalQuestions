@@ -25,6 +25,8 @@ using System.Threading.Tasks;
 //   }                                            }
 //   return cnt;                                  return cnt;
 // }                                            }
+
+// 두 메소드를 보면 n%2가 0인지 1인지를 판단하는 if 문만 다르고 완전히 똑같은 코드입니다.
 namespace ConsoleApp1
 {
     class Program
