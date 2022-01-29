@@ -31,7 +31,9 @@ using System.Threading.Tasks;
 // 즉 C언어의 함수 포인터와 같은 개념입니다. 델리게이트는 다음과 같이 선언합니다. delegate 키워드를 제외하면 메소드의 선언과
 // 똑같습니다. 
 // delegate 리턴형식 이름(매개변수 목록);
-// 델리게이트를 사용하여 Count 메소드를 하나로 만들었습니다.
+// 델리게이트를 사용하여 Count 메소드를 하나로 만들었습니다. 정수를 매개변수로 하고 부울값을 리턴하는 델리게이트 MemberTest를
+// 선언합니다. Count 메소드에서 홀수일 때 true를 리턴하는 IsOdd()와 짝수일 때 ture를 리턴하는 IsEven()을 매개변수 델리게이트
+// testMethod로 전달받아 사용합니다.
 
 namespace ConsoleApp1
 {
