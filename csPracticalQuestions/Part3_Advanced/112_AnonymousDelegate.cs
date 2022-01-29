@@ -7,6 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// 앞장에서 배열에서 짝수와 홀수의 개수를 출력하는 프로그램을 델리게이트를 사용하여 작성했습니다.
+// IsOdd()와 IsEven() 메소드는 MemberTest의 델리게이트 메소드로 사용되었습니다. 그런데 이 메소드들은
+// 한번씩만 사용되었기 때문에 굳이 이름을 갖는 메소드로 정의하지 않고 이름 없이 인라인 함수로 만들 수 있습ㄴ디ㅏ.
+// 이것을 무명 또는 익명 델리게이트라고 합니다.
 namespace ConsoleApp1
 {
     class Program
