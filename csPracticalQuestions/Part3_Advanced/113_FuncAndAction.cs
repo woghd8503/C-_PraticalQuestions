@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// 앞장에서 배열에서 짝수와 홀수의 개수를 출력하는 프로그램을 무명 델리게이트를 사용하여 작성했습니다.
+// 델리게이트를 사용하려면 우선 delegate를 선언해야 하는데 이것도 사실은 번거로운 일입니다.
+
 namespace ConsoleApp1
 {
     class Program
