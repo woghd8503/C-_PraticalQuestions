@@ -11,6 +11,9 @@ using System.Threading.Tasks;
 
 // (1) 식 람다(Expression Lambda)
 // 연산자의 오른쪽에 식이 있는 것을 식 람다라고 합니다. 식 람다는 식의 결과를 반환하며 기본 형식은 다음과 같습니다.
+// (input-parameters) => expression
+// 괄호는 람다 식에 입력 매개변수가 하나뿐인 경우에만 생략할 수 있고 그렇지 않으면 생ㄺ할 수 없습니다. 아래 예제에서
+// (1) 입력 매개변수가 0개이면 빈 괄호를 지정합니다. (2) 둘 이상의 입력 매개변수는 괄호로 묶고 쉼표로 구분합니다.
 namespace ConsoleApp1
 {
     class Program
