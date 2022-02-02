@@ -20,6 +20,10 @@ using System.Threading.Tasks;
 // Func<int, int, bool> testForEquality = (x, y) => x == y;                // (2)
 // Func<int, string, bool> isTooLong = (int x, string s) => s.Length > x;  // (3)
 
+// (2) 문 람다(Statement Lambda)
+// 문 란다는 다음과 같이 중괄호 안에 문장을 지정한다는 점을 제외하면 식 람다와 비슷합니다.
+// 문 람다는 본문에 지정할 수 있는 문장의 개수에는 제한이 없지만 일반적으로 2~3개 정도만 지정합니다.
+
 namespace ConsoleApp1
 {
     class Program
