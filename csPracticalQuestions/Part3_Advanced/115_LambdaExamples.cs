@@ -6,7 +6,11 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+// 람다식은 익명 메소드를 간단하게 표현할 수 있는 방법입니다. delegate, Func, Action으로 정의
+// 된 메소드를 만들 수 있으며 "=>" 람다 연산자의 오른쪽에 식이 올 수도 있고 문장이 올 수도 있습니다.
 
+// (1) 식 람다(Expression Lambda)
+// 연산자의 오른쪽에 식이 있는 것을 식 람다라고 합니다. 식 람다는 식의 결과를 반환하며 기본 형식은 다음과 같습니다.
 namespace ConsoleApp1
 {
     class Program
