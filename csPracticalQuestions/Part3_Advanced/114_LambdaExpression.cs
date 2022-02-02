@@ -21,7 +21,9 @@ using System.Threading.Tasks;
 
 // int n = Count(arr, delegate (int x)) {return x % 2 == 0; });
 
-// 
+// 이를 람다식으로 표현하면 다음과 같이 쓸 수 있습니다.
+// int n = Count(arr, x => x % 2 == 0);
+
 namespace ConsoleApp1
 {
     class Program
