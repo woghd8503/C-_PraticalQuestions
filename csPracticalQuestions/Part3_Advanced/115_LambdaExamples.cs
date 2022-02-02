@@ -6,6 +6,7 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 // 람다식은 익명 메소드를 간단하게 표현할 수 있는 방법입니다. delegate, Func, Action으로 정의
 // 된 메소드를 만들 수 있으며 "=>" 람다 연산자의 오른쪽에 식이 올 수도 있고 문장이 올 수도 있습니다.
 
@@ -23,7 +24,16 @@ using System.Threading.Tasks;
 // (2) 문 람다(Statement Lambda)
 // 문 란다는 다음과 같이 중괄호 안에 문장을 지정한다는 점을 제외하면 식 람다와 비슷합니다.
 // 문 람다는 본문에 지정할 수 있는 문장의 개수에는 제한이 없지만 일반적으로 2~3개 정도만 지정합니다.
+// (intput-parameters) => { statement; }
 
+// 예를 들어 다음의 소스 코드는 리턴 값이 없고 매개변수가 하나인 메소드를 문 람다로 작성했습니다. greet("World");라고 호출하면
+// "Hello World"라고 출력합니다.
+
+// Action<string> greet = name =>
+// {
+//    string greeting = $"Hello {name}!";
+//    Console.WriteLine(greeting);
+// }
 namespace ConsoleApp1
 {
     class Program
