@@ -19,6 +19,9 @@ using System.Threading.Tasks;
 // C#3.0부터 람다식이 도입되면서 익명메소드를 쓸 일이 없어졌습니다. 람다식이 훨씬 간단하기 때문입니다. 앞장에서
 // 사용했던 익명 메소드 부분입니다.
 
+// int n = Count(arr, delegate (int x)) {return x % 2 == 0; });
+
+// 
 namespace ConsoleApp1
 {
     class Program
