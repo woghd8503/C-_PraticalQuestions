@@ -17,7 +17,12 @@ using System.Threading.Tasks;
 //    return n % 2 == 0;
 // }
 
-// Predicate<int> isEven은 매개변수가 정수 하나이고 리턴 값이 bool인 IsEven 메소드의 이름을 지정합니다. 여기서 Pre
+// Predicate<int> isEven은 매개변수가 정수 하나이고 리턴 값이 bool인 IsEven 메소드의 이름을 지정합니다. 여기서 Predicate isEven는
+// 소문자로 시작하고 메소드 IsEeven() 메소드를 호출할 수 있습니다.
+
+// Console.WriteLine(isEven(6)); // 결과: true
+
+// 여기서 Predicate 대신 Func <int, bool> isEven = IsEven;를 써도
 
 namespace ConsoleApp1
 {
