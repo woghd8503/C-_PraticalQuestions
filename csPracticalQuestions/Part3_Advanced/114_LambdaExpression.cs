@@ -25,8 +25,6 @@ using System.Threading.Tasks;
 // int n = Count(arr, x => x % 2 == 0);
 
 
-//
-
 namespace ConsoleApp1
 {
     class Program

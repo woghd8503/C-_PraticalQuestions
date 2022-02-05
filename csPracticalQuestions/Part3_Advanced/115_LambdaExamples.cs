@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// 람다식은 익명 메소드를 간단하게 표현할 수 있는 방법입니다. delegate, Func, Action으로 정의된 메소드를
 namespace ConsoleApp1
 {
     class Program
