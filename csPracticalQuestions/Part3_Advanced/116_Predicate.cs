@@ -29,6 +29,9 @@ using System.Threading.Tasks;
 
 // 또 IsEven() 메소드를 익명 델리게이트로 쓴다면 함수를 정의하지 않고, Predicate 선언 부분에 직접 쓸 수 있습니다.
 
+// Predicate<int> isEven = n => n % 2 == 0;
+// 코드를 보면 정말 간단합니다.
+
 namespace ConsoleApp1
 {
     class Program
