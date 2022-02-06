@@ -23,6 +23,9 @@ using System.Threading.Tasks;
 // Console.WriteLine(isEven(6)); // 결과: true
 
 // 여기서 Predicate 대신 Func <int, bool> isEven = IsEven;를 써도 Predicate는 리턴 값이 bool로 정해져 있으므로 같은 결과가 나옵니다.
+// IsEven(int n) 메소드를 람다식으로 변형하면 다음과 같이 한 줄로 쓸 수 있습니다.
+
+// static bool IsEven(int n) => n % 2 ==0;
 
 namespace ConsoleApp1
 {
