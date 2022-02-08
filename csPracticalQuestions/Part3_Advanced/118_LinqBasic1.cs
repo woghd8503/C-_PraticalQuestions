@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// LINQ는 Language-INtegrated Query의 약자로 C#에 통합된 데이터 질의 기능입니다. SQL과 같은 Query 언어는 데이터베이스에서 사용되던 언어인데,
+//
 namespace ConsoleApp1
 {
     class Program
