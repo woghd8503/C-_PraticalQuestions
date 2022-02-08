@@ -14,6 +14,9 @@ using System.Threading.Tasks;
 // bool       List<T>.Exists(Predicate<T>)     조건에 맞는 요소가 있는지
 // T          List<T>.Find(Predicate<T>)       조건에 맞는 첫 번째 요소 리턴
 // List<T>    List<T>.FindAll(Predicate<T>)    조건에 맞는 모든 요소 리턴
+// T          List<T>.FindLast(Predicate<T>)   조건에 맞는 마지막 요소 리턴
+// int        List<T>.RemoveAll(Predicate<T>)  조건에 맞는 요소를 모두 제거
+// bool       List<T>.TrueForAll(Predicate<T>) 모든 요소가 조건에 맞는지
 namespace ConsoleApp1
 {
     class Program
