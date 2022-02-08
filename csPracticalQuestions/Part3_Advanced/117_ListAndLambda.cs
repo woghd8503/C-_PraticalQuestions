@@ -17,6 +17,8 @@ using System.Threading.Tasks;
 // T          List<T>.FindLast(Predicate<T>)   조건에 맞는 마지막 요소 리턴
 // int        List<T>.RemoveAll(Predicate<T>)  조건에 맞는 요소를 모두 제거
 // bool       List<T>.TrueForAll(Predicate<T>) 모든 요소가 조건에 맞는지
+
+// 여기서 Predicate<T>는 보통 람다식으로 표현됩니다.
 namespace ConsoleApp1
 {
     class Program
