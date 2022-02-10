@@ -17,7 +17,9 @@ using System.Threading.Tasks;
 
 // 위의 문장을 보면 from, where, orderby, select 등의 LINQ 연산자가 사용되었습니다. "data 컬렉션에 있는 데이터 item으로부터 item이 짝수이면
 // item 값으로 정렬하여 선택한다." 라는 뜻입니다. LINQ를 사용하려면 원본 데이터가 IEnumerable이나 IEnumerable<T> 인터페이스를 상속하는 형식이어야"
-// 합니다.
+// 합니다. 배열과 리스트 등의 컬렉션들은 모두 여기에 해당됩니다. 
+
+// 다음의 예제는 List에서 짝수 데이터만을 꺼내어 정렬하여 출력하는 프로그램을 기존 방법과 LINQ를 사용하는 두 가지 방법으로 작성했습니다.
 namespace ConsoleApp1
 {
     class Program
