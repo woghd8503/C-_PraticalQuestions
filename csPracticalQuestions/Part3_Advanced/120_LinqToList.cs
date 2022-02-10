@@ -6,7 +6,10 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+ // LINQ의 결과는 IEnumerable <T>가 된다고 했습니다. LINQ의 결과를 리스트로 받고 싶으면 ToList<T>() 메소드를 사용합니다. 이와 비슷하게
+ // LINQ의 결과를 배열로 받고 싶으면 ToArray<T>()메소드를 사용하면 됩니다.
 
+// 다음의 프로그램은 리스트의 값 중에서 홀수를 찾아 정렬하여 리스트로 반환하고 짝수를 찾아 정렬하여 배열로 반환합니다.
 namespace ConsoleApp1
 {
     class Program
