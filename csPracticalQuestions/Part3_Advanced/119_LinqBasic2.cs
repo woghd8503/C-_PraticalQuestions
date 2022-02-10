@@ -7,6 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// LINQ 사용법을 조금 더 공부해 보겠습니다. 컬렉션에서 원하는 값을 찾는 과정이 마치 데이터베이스에서 질의하는 것과 같습니다. 이번엔
+// 다음과 같은 문제를 풀어 보겠습니다. 
+
+// (1) data 리스트에서 20보다 큰 짝수를 내림차순으로 정렬하여 저장
 namespace ConsoleApp1
 {
     class Program

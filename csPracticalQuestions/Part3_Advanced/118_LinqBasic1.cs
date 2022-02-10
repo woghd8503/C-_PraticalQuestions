@@ -20,6 +20,7 @@ using System.Threading.Tasks;
 // 합니다. 배열과 리스트 등의 컬렉션들은 모두 여기에 해당됩니다. 
 
 // 다음의 예제는 List에서 짝수 데이터만을 꺼내어 정렬하여 출력하는 프로그램을 기존 방법과 LINQ를 사용하는 두 가지 방법으로 작성했습니다.
+
 namespace ConsoleApp1
 {
     class Program
