@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 // 다음과 같은 문제를 풀어 보겠습니다. 
 
 // (1) data 리스트에서 20보다 큰 짝수를 내림차순으로 정렬하여 저장
+// (2) 이 값을 2씩 곱하여 오름차순으로 정렬하여 저장
 namespace ConsoleApp1
 {
     class Program
