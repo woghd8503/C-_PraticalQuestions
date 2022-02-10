@@ -6,7 +6,8 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+// LINQ 쿼리식의 결과에서 새로운 객체를 만들어 컬렉션으로 저장할 수 있습니다.다음의 프로그램은 이름, 학번, 성적이 포함된
+// Student 클래스를 사용하여 시험 점수와 평균, 그리고 각 시험에서 커트라인 이상의 점수를 받은 학생들을 출력합니다.
 namespace ConsoleApp1
 {
     class Student

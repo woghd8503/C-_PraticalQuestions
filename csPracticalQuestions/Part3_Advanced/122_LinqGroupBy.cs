@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// LINQ에서 Group by는 특정 조건으로 데이터를 분류하는 기능입니다. 예를 들어 학생들의 평균 점수가 80점 이상인 그룹과 80점 미만인
+
 namespace ConsoleApp1
 {
     class Student
