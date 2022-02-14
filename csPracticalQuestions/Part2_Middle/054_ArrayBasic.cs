@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// 배열은 같은 자료형을 같는 자료들의 연속된 집합입니다 C#에서 배열은 참조형이므로 다음과 같이 new 키워드를 사용
+// 하여 생성합니다.
 namespace ConsoleApp1
 {
     class Program
