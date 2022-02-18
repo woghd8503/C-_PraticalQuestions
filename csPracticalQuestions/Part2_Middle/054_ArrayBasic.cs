@@ -17,6 +17,9 @@ using System.Threading.Tasks;
 // 자료형[] 배열명 = new 자료형[] {자료1, 자료2, ... };
 // 자료형[] 배열명 = new 자료형[N] {자료1, 자료2, ..., 자료N };
 
+// 배열 안에 들어 있는 각각의 자료를 요소(element)라고 합니다. 배열의 요소를 지정할 때는 대괄호 안에 숫자 인덱스를
+// 사용합니다. 크기가 N인 배열의 요소는 0부터 N-1까지의 인덱스로 지정합니다.
+  
 namespace ConsoleApp1
 {
     class Program
