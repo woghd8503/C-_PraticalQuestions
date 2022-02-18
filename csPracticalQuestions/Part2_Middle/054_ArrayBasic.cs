@@ -25,6 +25,7 @@ using System.Threading.Tasks;
 // 편리합니다. foreach (var value in a)는 "a 컬렉션의 각 요소값 value에 대해서" 라는 뜻입니다. 여기서 var는 어떤 자료형에도
 // 쓸 수 있는 키워드입니다.
 
+// 배열의 생성, 초기화, 출력 방법을 프로그램을 통해 알아보겠습니다.
 
   
 namespace ConsoleApp1
