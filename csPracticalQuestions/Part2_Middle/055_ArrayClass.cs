@@ -9,8 +9,9 @@ using System.Threading.Tasks;
 // 속성과 메소드를 사용할 수 있습니다. System.Array 클래스의 주요 속성과 메소드는 아래와 같습니다. 속성은 괄호가
 // 없고 메소드는 괄호가 있습니다. Array, Sort()와 같이 클래스 이름 Array와 함께 사용하는 메소드는 정적 메소드(static method)입니다.
 
-// 속성 및 메소드
-// Length 
+// 속성 및 메소드                  설명
+// Length               배열 요소의 총 개수
+// Rank                 배열의 차수(차원)
 namespace ConsoleApp1
 {
     class Program
