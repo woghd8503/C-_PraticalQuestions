@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 // 속성 및 메소드                  설명
 // Length               배열 요소의 총 개수
 // Rank                 배열의 차수(차원)
+// Array.Sort(a)        
 namespace ConsoleApp1
 {
     class Program
