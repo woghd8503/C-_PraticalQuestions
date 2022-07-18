@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "vFtTDfwPj87hij+2JOhuVjGdOAXXwZ4rxhE+LgjEkA3g2NHcLdEbDaAWYEwu17GrfaD0ApMoEw7ahSCU+WF3QA==",
+  "dgSpecHash": "Uoq6quz5P0MGH7XvfUnV7ELzhUnUWMYcW/n4sb/uTxw+uBW1XUn645G8GxlMQm9t2Q0PnQr3koVMn+n6tPpFRA==",
   "success": true,
   "projectFilePath": "D:\\01.Coding_study\\CS_PracticalQuestions_\\csPracticalQuestions\\Part2_Middle\\Part2_Middle.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
   "logs": []
 }
